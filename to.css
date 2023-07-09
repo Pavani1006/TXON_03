@@ -1,0 +1,79 @@
+         body{
+            background-color:rgb(94, 158, 158);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+        img{
+            height: 70px;
+            width:70px;
+            padding-left:50px ;
+        }
+        .head{
+            display: flex;
+            margin-top: 20px;
+        }
+        .container{
+            background-color:white ;
+            width: 40%;
+            max-height: 100%;
+            border-radius: 10px;
+        }
+        .h1{
+            padding-left: 160px;
+            font-family: 'Ysabeau Infant', sans-serif;
+        }
+        .task{
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .input{
+            height:35px;
+            font-family: 'Ysabeau Infant', sans-serif;
+            border-radius: 10px;
+            font-weight: 600;
+            text-transform: capitalize;
+            border: 2px solid black;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #add{
+            padding: 10px;
+            width: 80px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: larger;
+            background-color: cadetblue;
+        }
+    #tasklist{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding:10px 23px;
+        }
+        .new{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: capitalize;
+            background-color: #c5e1e6;
+            height: 40px;
+            width:533px;
+            font-family:  'Ysabeau Infant', sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            padding: 8px 8px;
+            margin-bottom: 9px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .del{
+            border: none;
+            outline: none;
+            background: none;
+            color:#156270;
+        }
